@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Suman Tewary | Web Devloper | Android Devloper</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <section class="hero">
+      <div class="main-width">
+        <header>
+          <div class="logo">
+            <p>SRT</p>
+          </div>
+
+          <nav>
+            <div class="humb">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+
+            <ul class="nav-list">
+              <li><a onclick="openHome()" id="home">Home</a></li>
+              <li><a onclick="openAbout()" id="about">About Me</a></li>
+              <li><a onclick="openWorks()" id="works">Works</a></li>
+              <!-- <li><a onclick="operServices()" id="services">Services</a></li> -->
+              <li onclick="activeContact()" class="btn"><a>Contact Me</a></li>
+            </ul>
+          </nav>
+        </header>
+        <div class="contaner">
+          <!-- Home Page -->
+          <div class="home-section">
+            <div class="home-left">
+              <div class="hero-text" id="contanthome">
+                <h3>Hi, There !</h3>
+                <h1>I am <span>Suman Tewary</span></h1>
+                <p>
+                  I am motivated web developer and machine learning enthusiast
+                  currently pursuing a B.Tech in IT. They have a strong
+                  foundation in programming languages like HTML, CSS,
+                  JavaScript, and Python, and have experience in developing
+                  responsive and dynamic websites.
+                </p>
+                <div class="social">
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="#"><i class="fa-brands fa-github"></i></a>
+                  <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <button type="button">
+                  More About Me <i class="fa-solid fa-angles-right"></i>
+                </button>
+              </div>
+            </div>
+            <div class="home-right">
+              <div class="home-image"></div>
+            </div>
+          </div>
+
+          <!-- About Me Page -->
+
+          <div class="about page" id="contantabout">
+            <div class="about-section">
+              <div class="about-left">
+                <div class="about-image"></div>
+              </div>
+              <div class="about-right">
+                <h2>About Me</h2>
+                <p>
+                  "Hi, I'm Suman Tewary, a web developer and machine learning
+                  enthusiast. With a passion for coding and a desire to make a
+                  positive impact in the tech industry, I'm pursuing a B.Tech in
+                  IT while working on personal projects to expand my skills and
+                  knowledge. I have experience in developing responsive and
+                  dynamic websites using programming languages like HTML, CSS,
+                  JavaScript, and Python. My interest in machine learning has
+                  led me to complete projects utilizing data analysis and
+                  statistical models to solve real-world problems. In my free
+                  time, I enjoy exploring new technologies and learning about
+                  the latest developments in web development and machine
+                  learning. I'm excited to continue my journey in the tech
+                  industry and make a meaningful contribution to the field."
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Works Page -->
+
+          <div class="works page" id="contantworks">
+            <h2>My Works</h2>
+            <div class="works-div">
+              <div class="work-1">
+                <div class="work-img">
+                  <img src="https://source.unsplash.com/random/web" alt="" />
+                </div>
+                <div class="work-title">Demo Website Project</div>
+                <div class="work-detail">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
+                  vel alias totam culpa eligendi veniam aliquam voluptates
+                  dolorem impedit deserunt eveniet nihil! Quaerat, saepe!
+                  Quisquam.
+                </div>
+              </div>
+              <div class="work-1">
+                <div class="work-img">
+                  <img
+                    src="https://source.unsplash.com/random/website"
+                    alt=""
+                  />
+                </div>
+                <div class="work-title">Demo Website Project</div>
+                <div class="work-detail">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
+                  vel alias totam culpa eligendi veniam aliquam voluptates
+                  dolorem impedit deserunt eveniet nihil! Quaerat, saepe!
+                  Quisquam.
+                </div>
+              </div>
+              <div class="work-1">
+                <div class="work-img">
+                  <img
+                    src="https://source.unsplash.com/random/devloper"
+                    alt=""
+                  />
+                </div>
+                <div class="work-title">Demo Website Project</div>
+                <div class="work-detail">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
+                  vel alias totam culpa eligendi veniam aliquam voluptates
+                  dolorem impedit deserunt eveniet nihil! Quaerat, saepe!
+                  Quisquam.
+                </div>
+              </div>
+              <div class="work-1">
+                <div class="work-img">
+                  <img src="https://source.unsplash.com/random/" alt="" />
+                </div>
+                <div class="work-title">Demo Website Project</div>
+                <div class="work-detail">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
+                  vel alias totam culpa eligendi veniam aliquam voluptates
+                  dolorem impedit deserunt eveniet nihil! Quaerat, saepe!
+                  Quisquam.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Services Page -->
+
+          <div class="about page" id="contantservices">
+            <h2>Services Page</h2>
+          </div>
+        </div>
+        <div class="bottom">
+          <p>&copy;2023 Suman -All Right Reserved.</p>
+        </div>
+      </div>
+      <div class="contact">
+        <div class="contact-close">
+          <p onclick="deactiveContact()">&times;</p>
+        </div>
+        <div class="contact-name">
+          <p>Name</p>
+          <input type="text" id="name" name="name" placeholder="Your name.." />
+        </div>
+        <div class="contact-mail">
+          <p>E-Mail</p>
+          <input
+            type="email"
+            id="mail"
+            name="mail"
+            placeholder="Enter Your Email"
+          />
+        </div>
+        <div class="contact-describe">
+          <p>Massage</p>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Write something.."
+          ></textarea>
+        </div>
+        <div class="contact-submit"><a>Submit</a></div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
