@@ -19,7 +19,7 @@ body {
   height: 100%;
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
-    url(../bg.jpg);
+    url(bg.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -336,20 +336,6 @@ nav .nav-list li.btn:hover a {
 
 /* Services Page */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Bottom Section */
 .bottom {
   margin-top: auto;
@@ -360,7 +346,6 @@ nav .nav-list li.btn:hover a {
   font-size: 14px;
   letter-spacing: 2px;
 }
-
 
 /* Contact Form */
 .contact {
@@ -375,8 +360,7 @@ nav .nav-list li.btn:hover a {
   box-shadow: 0px 0px 5px 5px rgba(255, 255, 255, 0.1);
   display: flex;
   flex-direction: column;
-  transition: top 0ms ease-in-out 200ms,
-    opacity 200ms ease-in-out 0ms,
+  transition: top 0ms ease-in-out 200ms, opacity 200ms ease-in-out 0ms,
     transform 0ms ease-in-out 200ms;
 }
 
@@ -384,8 +368,7 @@ nav .nav-list li.btn:hover a {
   top: 50%;
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
-  transition: top 200ms ease-in-out 0ms,
-    opacity 0ms ease-in-out 200ms,
+  transition: top 200ms ease-in-out 0ms, opacity 0ms ease-in-out 200ms,
     transform 200ms ease-in-out 0ms;
 }
 
@@ -425,8 +408,8 @@ nav .nav-list li.btn:hover a {
   width: 150px;
 }
 
-.contact-name input[type='text'],
-.contact-mail input[type='email'],
+.contact-name input[type="text"],
+.contact-mail input[type="email"],
 .contact-describe textarea {
   background-color: rgba(255, 255, 255, 0.1);
   color: #eee;
@@ -459,7 +442,6 @@ nav .nav-list li.btn:hover a {
 .contact-submit {
   display: flex;
   justify-content: center;
-
 }
 
 .contact-submit a {
@@ -482,8 +464,6 @@ nav .nav-list li.btn:hover a {
   display: none;
   transition: 1s;
 }
-
-
 
 .contact-describe textarea {
   display: block;
